@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Medula';
+    src: url('../MedulaOne.woff2') format('woff2'),
+         url('../MedulaOne.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.heading{
+  position: fixed;
+  font-size: 5vw;
+  font-family: "Medula";
+  color: #e0311d;
+}
+                
+
+body{
+width: 97vw;
+background-color: #faf9f5;
+}
+
+a:link {
+  text-decoration: none;
+color: #e0311d;}
+a:visited {text-decoration: none;
+color: #e0311d}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 12vw;
+  font-family: "Medula";
+   color: #faf9f5;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #e0311d;
+  text-decoration: none;
+  position: relative;
+  top: 5vw;
+  left: 60vw;
+}
+
+p {
+  font-size: 1.5vw;
+  font-family: "Trebuchet MS";
+  color: #e0311d;
+  position: relative;
+  top: 0vw;
+  width: 30vw;
+  -webkit-text-stroke-width: 1px;
+}
+
+img {
+  width: 50vw;
+  position: absolute;
+  top: 8vw;
+  left: 5vw;
+}
+
+@media (max-width: 700px) {
+  .title {
+   -webkit-text-stroke-width: 1px;
+  }
+
+}
+

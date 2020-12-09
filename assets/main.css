@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Medula';
+    src: url('MedulaOne.woff2') format('woff2'),
+         url('MedulaOne.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+width: 97vw;
+background-color: #e0311d;
+}
+
+.heading{
+  position: fixed;
+  font-size: 5vw;
+  font-family: "Medula";
+  color: #faf9f5;
+}
+
+
+.projects{
+  margin-left: 10%;
+}
+
+.section {
+  margin-left: 40vw;
+  font-size: 5vw;
+  font-family: "Medula";
+  color: #faf9f5;
+}
+
+.about {
+  position: absolute;
+  margin-left: 30vw;
+  text-decoration: none;
+}
+
+.about:hover{
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 12vw;
+  font-family: "Medula";
+   color: #e0311d;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #faf9f5;
+  position: relative;
+  left: 40vw;
+  text-decoration: none;
+}
+
+.title:hover{
+   color: #edc421;
+   text-decoration: line-through;
+   -webkit-text-stroke-width: 0px;
+}
+
+.superscript {
+  font-size: 6vw;
+}
+
+/* alternative: 
+.title:hover{
+  background: -webkit-linear-gradient(red, yellow);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+*/ 
+
+
+img {
+  width: 40vw;
+  float: left;
+  position: absolute;
+  opacity: 0%;
+
+}
+
+.show{
+  opacity: 100%;
+}
+
+.single_project{
+ position: relative;
+}
+
+@media (max-width: 700px) {
+  .title {
+   -webkit-text-stroke-width: 1px;
+  }
+
+}
+
